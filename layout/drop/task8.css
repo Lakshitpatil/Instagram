@@ -1,0 +1,54 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+nav{
+
+    background-color: rgb(255, 204, 0);
+    position: sticky;
+
+}
+#cont{
+    display: flex;
+    list-style-type: none;
+    margin: 0px;
+}
+
+
+a{
+    display: block;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    padding: 20px;
+}
+#menu {
+   list-style: none;
+   padding: 0px;
+   margin: 0px;
+   background-color: rgb(255, 125, 50);
+   position: absolute;
+   display: none;
+}
+#drop:hover #menu{
+    display: block;
+}
+#pay{
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+    background-color: rgb(255, 125, 50);
+    position: absolute;
+    display: none;
+}
+#drop1:hover #pay{
+    display: block;
+}
+a:hover{
+    background-color: aliceblue;
+    color: rgb(255, 156, 7);
+}
+img{
+    position: absolute;
+    width: 350px;
+    height: 200px;
+} 

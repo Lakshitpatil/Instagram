@@ -1,0 +1,39 @@
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: end;
+    height: 100vh;
+}
+footer{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    padding: 80px 0px;
+}
+h3{
+    font-size: 12px;
+    color: white;
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+}
+div{
+    display: flex;
+}
+li{
+    color: rgb(148, 139, 139);
+}
+a{
+    text-decoration: none;
+    color: rgb(148, 136, 136);
+}
+/* #top{
+    height: 50%;
+    
+} */
+#bottom{
+    height: 50%;
+    margin-top: auto;
+}

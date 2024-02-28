@@ -1,0 +1,99 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+nav{
+    background-color: rgb(255, 171, 45);
+    width: 15%;
+    height: 100vh;
+    position: relative;
+}
+#cont{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    padding: 20px 20px;
+    display: block;
+    text-align: center;
+    border-bottom: 2px solid rgb(255, 254, 254);
+}
+a:hover{
+    background-color: rgb(255, 255, 255);
+    color: brown;
+}
+/* #menu{
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+    background-color: blanchedalmond;
+    position: relative;
+    display: none;
+}
+#mob:hover #menu{
+    display: block;
+}
+normal drop down */
+#menu{
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+    background-color: blanchedalmond;
+    position:absolute ;
+    top: 0px;
+    left: 100%;
+    display: none;
+}
+#mob:hover #menu{
+    display: block;
+}
+#lap1{
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+    background-color: blanchedalmond;
+    position:absolute ;
+    top: 0px;
+    left: 100%;
+    display: none;
+}
+#lap:hover #lap1{
+    display: block;
+}
+#idrop{
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+    background-color: rgb(224, 107, 107);
+    position:absolute ;
+    top: 0px;
+    left: 100%;
+    display: none;
+    width: 200%;
+}
+#imenu{
+    position: relative;
+}
+#imenu:hover #idrop{
+    display: block;
+}
+#sam1{
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+    background-color: rgb(141, 55, 247);
+    position:absolute ;
+    top: 0px;
+    left: 100%;
+    display: none;
+    width: 200%;
+}
+#sam{
+    position: relative;
+}
+#sam:hover #sam1{
+    display: block;
+}
